@@ -3,7 +3,7 @@ package POE::Component::IRC::Plugin::HTML::ElementInfo;
 use warnings;
 use strict;
 
-our $VERSION = '0.001';
+our $VERSION = '0.002';
 
 use base 'POE::Component::IRC::Plugin::BaseWrap';
 
@@ -793,6 +793,8 @@ sub _make_load_data {
 
 1;
 __END__
+
+=encoding utf8
 
 =head1 NAME
 

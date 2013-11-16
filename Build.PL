@@ -12,7 +12,9 @@ my $builder = Module::Build->new(
     },
     requires => {
         'POE::Component::IRC::Plugin::BaseWrap' => 0.001,
+        'perl' => '5.006',
     },
+    configure_requires => { 'Module::Build' => 0 },
     add_to_cleanup      => [ 'POE-Component-IRC-Plugin-HTML-ElementInfo-*' ],
     create_makefile_pl => 'traditional',
 );
